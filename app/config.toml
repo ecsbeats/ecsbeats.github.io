@@ -1,0 +1,53 @@
+baseurl = "http://www.example.com"
+title = "Adam Blumenfeld"
+theme = "coder"
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+  author = "Adam Blumenfeld"
+  info = "CEO & Backend Software Engineer"
+  description = "Adam Blumenfeld's Personal Website"
+  gravatar = "adamb@csxlabs.org"
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/ecsbeats/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/nullstream/"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:adamb@csxlabs.org"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
