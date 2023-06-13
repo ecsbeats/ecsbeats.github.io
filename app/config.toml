@@ -10,26 +10,26 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 
 [params]
-  author = "Adam Blumenfeld"
-  info = "CEO & Backend Software Engineer"
-  description = "Adam Blumenfeld's Personal Website"
-  gravatar = "adamb@csxlabs.org"
-  enableTwemoji = true
+author = "Adam Blumenfeld"
+info = "CEO & Backend Software Engineer"
+description = "Adam Blumenfeld's Personal Website"
+gravatar = "adamb@csxlabs.org"
+enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+colorScheme = "auto"
+hidecolorschemetoggle = false
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/ecsbeats/"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/ecsbeats/"
 
 [[params.social]]
 name = "LinkedIn"
@@ -38,16 +38,22 @@ weight = 4
 url = "https://www.linkedin.com/in/nullstream/"
 
 [[params.social]]
-  name = "Email"
-  icon = "fa fa-envelope fa-2x"
-  weight = 1
-  url = "mailto:adamb@csxlabs.org"
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+weight = 1
+url = "mailto:adamb@csxlabs.org"
+
+[[params.social]]
+name = "Calendar"
+icon = "fa fa-calendar-o fa-2x"
+weight = 1
+url = "https://goto.csxlabs.org/availability.adamb"
 
 [[menu.main]]
-  name = "Posts"
-  weight = 1
-  url  = "posts/"
+name = "Posts"
+weight = 1
+url = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+name = "About"
+weight = 2
+url = "about/"
